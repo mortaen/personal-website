@@ -12,10 +12,12 @@
 <body>
     <header>
         <nav class="navbar">
-            <h1>My Personal Website</h1>
-            <div> Morten </div>
-            <a href="#contact"> Contact</a>
-            <a href="#bio"> Biography</a>
+            <h1 class="title">My Personal Website</h1>
+            <div class="nav-links">
+                <div class="nav-item"> Morten </div>
+                <a href="#contact" class="nav-item"> Contact</a>
+                <a href="#bio" class="nav-item"> Biography</a>
+            </div>
         </nav>
     </header>
     <main>
@@ -31,21 +33,23 @@
             <h2 class="subheader">
                 Interests
             </h2>
-
-            <ul class="list">
-                <li>football</li>
-                <li>skateboarding</li>
-            </ul>
+            <div class="list-box">
+                <ul class=" list">
+                    <li>football</li>
+                    <li>skateboarding</li>
+                </ul>
+            </div>
         </section>
         <section class="int-skill-section">
             <h2 class="subheader">
                 Skills
             </h2>
-
-            <ul class="list">
-                <li>git</li>
-                <li>html?</li>
-            </ul>
+            <div class="list-box">
+                <ul class="list">
+                    <li>git</li>
+                    <li>html?</li>
+                </ul>
+            </div>
         </section>
         <section class="github-section">
             <a href="https://github.com/mortaen">
@@ -58,7 +62,7 @@
         <section class="section">
             <h3 id="contact" class="subheader"> Contact
             </h3>
-            <table style="width:100%">
+            <table class="table">
 
                 <tr>
                     <td>email</td>
@@ -82,7 +86,7 @@
         </section>
         <section class="section">
             <h3 class="subheader"> Curriculum Vitae</h3>
-            <table style="width:100%">
+            <table class="table">
                 <tr>
                     <td>work</td>
                     <td>example work</td>
