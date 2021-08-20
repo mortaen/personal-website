@@ -55,8 +55,9 @@ body {
   }
   .head-photo {
       text-align: center;
-      font-size: 1.25rem;
+      font-size: 1.75rem;
   }
+
   .github-section {
       display: flex;
       flex-flow: wrap column;
@@ -96,12 +97,16 @@ body {
   font-size: 2rem;
   }
 
+  .list-item {
+    min-width: 300px;
+  }
+
   .table {
     width: 100%;
     font-size: 2rem;
   }
 
- /* .list-box {
+  .list-box {
     display: flex;
     justify-content: flex-start;
-  } */
+  } 
