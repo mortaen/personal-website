@@ -73,6 +73,19 @@ body {
     align-items: center;
     margin: auto;
   }
+
+  address {
+    font-size: 2rem;
+  }
+  
+  .address-section {
+    display:flex;
+  flex-flow: wrap row;
+  align-items: baseline;
+  justify-content: space-between;
+  max-width: 800px;
+  }
+
   .int-skill-section {
     display: flex;
     flex-flow: wrap row;
@@ -107,10 +120,10 @@ body {
     font-size: 2rem;
   }
 
-  .list-box {
+  /* .list-box {
     display: flex;
     justify-content: flex-start;
-  } 
+  } */
 
   .footer {
     margin-top: 25px;
