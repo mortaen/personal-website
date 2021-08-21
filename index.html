@@ -6,104 +6,109 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Personal Website</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <header>
-        <h1>My Personal Website</h1>
-    <h2>Morten</h2>
-    <nav>
-        <ul>
-            <li>
-                <a href="#contact"> Contact</a>
-            </li>
-            <li>
-                <a href="#bio"> Biography</a>
-            </li>
-        </ul>
-    </nav>
+    <header class="header">
+
+        <h1 class="title">My Personal Website</h1>
+        <nav class="nav-links">
+            <a href="#interests" class="nav-item"> Interests </a>
+            <a href="#skills" class="nav-item"> Skills</a>
+            <a href="#contact" class="nav-item"> Contact</a>
+            <a href="#bio" class="nav-item"> Biography</a>
+        </nav>
+
     </header>
-<main>
 
-    <section>
-        <img src="img/head-outline.png" alt="head outline">
-        <div>A placeholder photo.</div>
-    </section>
+    <main>
 
-    <section>
-        <h2>
-            Interests
-        </h2>
-        <div>
-            <ul>
-                <li>football</li>
-                <li>skateboarding</li>
-            </ul>
-            <h2>
-                Skills
-            </h2>
+        <section class="head-photo">
+            <img src="img/head-outline.png" alt="head outline">
             <div>
-                <ul>
-                    <li>git</li>
-                    <li>html?</li>
+                A placeholder photo.
+            </div>
+        </section>
+
+        <section class="int-skill-section">
+            <h2 id="interests" class="subheader">
+                Interests
+            </h2>
+            <div class="list-box">
+                <ul class=" list">
+                    <li class="list-item">football</li>
+                    <li class="list-item">skateboarding</li>
                 </ul>
             </div>
-        </div>
-        <section>
-            <a href="https://github.com/mortaen">
-                <img alt="github logo" src="img/github-logo.png">
-
-
-
-
-
-                <a href="https://github.com/mortaen">Check out my github profile!</a>
         </section>
-    </section>
+        <section class="int-skill-section">
+            <h2 id="skills" class="subheader">
+                Skills
+            </h2>
+            <div class="list-box">
+                <ul class="list">
+                    <li class="list-item">git</li>
+                    <li class="list-item">html?</li>
+                </ul>
+            </div>
+        </section>
+        <section class="github-section">
+            <a href="https://github.com/mortaen">
+                <img alt="github logo" src="img/github-logo.png" class="github-img"></a>
+            <a href="https://github.com/mortaen">Check out my github profile!</a>
 
-    <section>
-        <h3 id="contact"> Contact </h3>
-        <table style="width:100%">
+        </section>
 
-            <tr>
-                <td>email</td>
-                <td>email@email.com</td>
-            </tr>
-            <tr>
-                <td>phone</td>
-                <td>111111111111</td>
-            </tr>
-        </table>
-        <h3 id="bio"> Biography </h3>
-        <p>
-            What a wonderful life.
-        </p>
 
-        <h3>Curriculum Vitae</h3>
-        <table style="width:100%">
-            <tr>
-                <td>work</td>
-                <td>example work</td>
-            </tr>
-            <tr>
-                <td>more work</td>
-                <td>example work</td>
-            </tr>
-            <tr>
-                <td>school</td>
-                <td>example school</td>
-            </tr>
-        </table>
-    </section>
-</main>
+        <section class="section">
+            <h3 id="contact" class="subheader"> Contact
+            </h3>
+            <table class="table">
 
-<br>
-<br>
-<br>
+                <tr>
+                    <td>email</td>
+                    <td>email@email.com</td>
+                </tr>
+                <tr>
+                    <td>phone</td>
+                    <td>111111111111</td>
+                </tr>
+            </table>
+        </section>
+        <section class="section">
+            <h3 id="bio" class="subheader"> Biography </h3>
+            <p>
+                What a wonderful life. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum debitis
+                incidunt
+                qui assumenda exercitationem quod nesciunt. Ratione sit veritatis aperiam. A quasi molestiae quo
+                iusto
+                distinctio eum id tempore quidem!
+            </p>
+        </section>
+        <section class="section">
+            <h3 class="subheader"> Curriculum Vitae</h3>
+            <table class="table">
+                <tr>
+                    <td>work</td>
+                    <td>example work</td>
+                </tr>
+                <tr>
+                    <td>more work</td>
+                    <td>example work</td>
+                </tr>
+                <tr>
+                    <td>school</td>
+                    <td>example school</td>
+                </tr>
+            </table>
+        </section>
+    </main>
 
-<footer>
-    Created on August 18th 2021 by <a href="https://github.com/mortaen">mortaen.</a>
-</footer>
+
+    <footer class="footer">
+        Created on August 18th 2021 by <a href="https://github.com/mortaen">mortaen.</a>
+    </footer>
 
 </body>
 
