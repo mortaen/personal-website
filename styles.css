@@ -23,7 +23,7 @@ body {
       font-size: 2.2rem;
       color:steelblue;
   }
-  .navbar {
+  .header {
       
       background-color: lightslategray;
       display: flex;
