@@ -24,6 +24,7 @@ body {
   .subheader {
       font-size: 2.2rem;
       color:steelblue;
+      
       align-self: center;
   }
   .header {
@@ -102,16 +103,14 @@ body {
     }
   } 
 
-  @media (min-width: 1200px) {
+  @media (min-width: 1500px) {
     .projects {
-      height: 50vh;
+    height: 50vh;
     display: flex;
     flex-direction: row;
     }
   }
-
-
-
+  
   .project-box {
     margin-left: 1.25vw;
     margin-right: 1.25vw;
@@ -180,19 +179,19 @@ body {
 
   .mail-logo {
     width: auto;
-    height: 2vh;
+    height: 2rem;
   }
 
-
-
-  .section {
+  .bio-section {
   display:flex;
-  flex-flow: wrap row;
-  align-items: baseline;
+  flex-flow: wrap column;
+  align-items: center;
 
   }
   p {
   font-size: 1.75rem;
+  margin-top: 0;
+  margin-left: 2vw;
   }
 
   .table {
