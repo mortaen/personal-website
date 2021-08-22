@@ -14,7 +14,7 @@
 
         <h1 class="title">My Personal Website</h1>
         <nav class="nav-links">
-            <a href="#interests" class="nav-item"> Interests </a>
+            <a href="#projects" class="nav-item"> Projects</a>
             <a href="#skills" class="nav-item"> Skills</a>
             <a href="#contact" class="nav-item"> Contact</a>
             <a href="#bio" class="nav-item"> Biography</a>
@@ -24,47 +24,78 @@
 
     <main>
 
-        <figure class="head-photo">
-            <img src="img/head-outline.png" alt="head outline">
+        <div class="poly-grey-svg">
+        </div>
+
+        <figure class="head-figure">
+            <img class="head-img" src="img/head-outline.svg" alt="head vector img">
             <figcaption>
                 A placeholder photo.
             </figcaption>
         </figure>
 
-        <section class="int-skill-section">
-            <h2 id="interests" class="subheader">
-                Interests
-            </h2>
-            <ul class=" list">
-                <li class="list-item">football</li>
-                <li class="list-item">skateboarding</li>
-            </ul>
+        <article id="projects" class="projects">
+            <section class="project-box">
+                <h3 class="project-subheader">Project 1</h3>
+                <p class="project-paragraph">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium alias dolore rerum corrupti
+                    autem
+                    et consectetur. Facilis ab error quae, earum numquam dicta eius voluptas vitae quidem, consequuntur
+                    consectetur repellat!
+                </p>
+            </section>
+            <section class="project-box">
+                <h3 class="project-subheader">Project 2</h3>
+                <p class="project-paragraph">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium alias dolore rerum corrupti
+                    autem
+                    et consectetur. Facilis ab error quae, earum numquam dicta eius voluptas vitae quidem, consequuntur
+                    consectetur repellat!
+                </p>
+            </section>
+            <section class="project-box">
+                <h3 class="project-subheader">Project 3</h3>
+                <p class="project-paragraph">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium alias dolore rerum corrupti
+                    autem
+                    et consectetur. Facilis ab error quae, earum numquam dicta eius voluptas vitae quidem, consequuntur
+                    consectetur repellat!
+                </p>
+            </section>
+            <section class="project-box">
+                <h3 class="project-subheader">Project 4</h3>
+                <p class="project-paragraph">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium alias dolore rerum corrupti
+                    autem
+                    et consectetur. Facilis ab error quae, earum numquam dicta eius voluptas vitae quidem, consequuntur
+                    consectetur repellat!
+                </p>
+            </section>
+        </article>
 
-        </section>
-        <section class="int-skill-section">
+
+        <section class="skills-section">
             <h2 id="skills" class="subheader">
                 Skills
             </h2>
-            <ul class="list">
-                <li class="list-item">git</li>
-                <li class="list-item">html?</li>
+            <ul class="skills-list">
+                <li class="list-item"><img class="skills-icon" src="img/terminal.svg" alt="terminal logo"></li>
+                <li class="list-item"><a href="https://github.com/mortaen">
+                        <img class="github-img" alt="github logo" src="img/github-logo.png"></a></li>
+                <li class="list-item"><img class="skills-icon" src="img/html5-logo.svg" alt="html5 logo"></li>
+                <li class="list-item"><img class="skills-icon" src="img/css3-logo.svg" alt="css3 logo"></li>
             </ul>
 
         </section>
-        <section class="github-section">
-            <a href="https://github.com/mortaen">
-                <img alt="github logo" src="img/github-logo.png" class="github-img"></a>
-            <a href="https://github.com/mortaen">Check out my github profile!</a>
-
-        </section>
-
 
         <section class="address-section">
             <h3 id="contact" class="subheader"> Contact </h3>
-            <address class="address"> email <a href="mailto: example@email.com"> example@email.com</a></address>
+            <address class="address"> <img class="mail-logo" src="img/mail-logo.png" alt="mail logo"> <a
+                    href="mailto: example@email.com">
+                    example@email.com</a></address>
 
         </section>
-        <section class="section">
+        <section class="bio-section">
             <h3 id="bio" class="subheader"> Biography </h3>
             <p>
                 What a wonderful life. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum debitis
@@ -74,28 +105,20 @@
                 distinctio eum id tempore quidem!
             </p>
         </section>
-        <section class="section">
-            <h3 class="subheader"> Curriculum Vitae</h3>
-            <table class="table">
-                <tr>
-                    <td>work</td>
-                    <td>example work</td>
-                </tr>
-                <tr>
-                    <td>more work</td>
-                    <td>example work</td>
-                </tr>
-                <tr>
-                    <td>school</td>
-                    <td>example school</td>
-                </tr>
-            </table>
-        </section>
+
     </main>
 
 
     <footer class="footer">
         Created on August 18th 2021 by <a href="https://github.com/mortaen">mortaen.</a>
+        <div class="attribution">Image attribution</div>
+        <ul>
+            <li><a href="https://commons.wikimedia.org/wiki/File:HTML5_logo_and_wordmark.svg">W3C</a>, <a
+                    href="https://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>, via Wikimedia Commons</li>
+            <li><a href="https://commons.wikimedia.org/wiki/File:CSS3_logo_and_wordmark.svg">Rudloff</a>, <a
+                    href="https://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>, via Wikimedia Commons</li>
+        </ul>
+
     </footer>
 
 </body>
