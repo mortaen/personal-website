@@ -24,6 +24,7 @@ body {
   .subheader {
       font-size: 2.2rem;
       color:steelblue;
+      align-self: center;
   }
   .header {
       
@@ -164,26 +165,25 @@ body {
     align-items: center;
     margin: auto;
   }
-
-  address {
-    font-size: 2rem;
-  }
   
   .address-section {
   display:flex;
-  flex-flow: wrap row;
-  align-items: baseline;
-  justify-content: space-between;
-  max-width: 800px;
+  flex-flow: wrap column;
+  align-items: center;
   }
 
-  .int-skill-section {
+  address {
     display: flex;
-    flex-flow: wrap row;
-    align-items: baseline;
-    justify-content: space-between;
-    max-width: 800px;
+    align-items: center;
+    font-size: 2rem;
   }
+
+  .mail-logo {
+    width: auto;
+    height: 2vh;
+  }
+
+
 
   .section {
   display:flex;
@@ -194,15 +194,6 @@ body {
   p {
   font-size: 1.75rem;
   }
-
-  .list {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-  font-size: 2rem;
-  }
-
-
 
   .table {
     width: 100%;
