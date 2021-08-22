@@ -10,7 +10,8 @@ body {
     
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin: 0px;
-    height: 100%;
+    background-color: seashell;
+    
   }
 
   h1 {
@@ -33,7 +34,7 @@ body {
       color:seashell;
       font-size: 2rem;
       justify-content: space-between;
-      align-items: stretch;
+      
   }
 
   .title{
@@ -44,7 +45,7 @@ body {
   .nav-links {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
+    
     
   }
   .nav-item {
@@ -63,29 +64,62 @@ body {
     background-size: cover;
     width: 100%;
     height: 15vh;
+    background-attachment: fixed;
   }
 
-  .head-photo {
-      text-align: center;
+  .head-figure {
+      display: flex;
+      flex-direction: column;
       font-size: 1.75rem;
+    
+  }
+
+  .head-img {
+    align-self: center;
+    width: 15vw;
+    height: auto;
+  }
+
+  figcaption {
+    align-self: center;
   }
 
  .projects {
-    height: 50vh;
     display: flex;
-    flex-direction: row;
     background-size: cover;
     background-image: url('img/poly-grey-svg.svg');
     background-attachment: fixed;
+    width: 100vw;
 
   }
+
+   @media (max-width: 900px) {
+    .projects {
+    display: flex;
+    flex-direction: column;
+    height: 125vh;
+    }
+  } 
+
+  @media (min-width: 1200px) {
+    .projects {
+      height: 50vh;
+    display: flex;
+    flex-direction: row;
+    }
+  }
+
+
 
   .project-box {
     margin-left: 1.25vw;
     margin-right: 1.25vw;
+    margin-top: 1.25vh;
+    margin-bottom: 1.25vh;
     border: 4px solid black;
     padding-left: 1.25vw;
     padding-right: 1.25vw;
+    overflow: auto;
     
   }
 
@@ -95,10 +129,26 @@ body {
       text-align: center;
   }
 
- /* .project-paragraph {
-    padding-left: 1.25vw;
-    padding-right: 1.25vw;
-  }*/
+  .skills-section {
+    display: flex;
+    flex-flow: wrap column;
+    align-items: center;
+  }
+
+  .skills-list {
+    display: flex;
+    flex-flow: wrap row;
+    width: 100vw;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .skills-icon {
+    width: auto;
+    height: 8vh;
+  }
 
   .github-section {
       display: flex;
@@ -109,8 +159,8 @@ body {
 
   }
   .github-img {
-    width: 200px;
-    height: 200px;
+    width: auto;
+    height: 8vh;
     align-items: center;
     margin: auto;
   }
@@ -120,7 +170,7 @@ body {
   }
   
   .address-section {
-    display:flex;
+  display:flex;
   flex-flow: wrap row;
   align-items: baseline;
   justify-content: space-between;
@@ -152,9 +202,7 @@ body {
   font-size: 2rem;
   }
 
-  .list-item {
-    min-width: 300px;
-  }
+
 
   .table {
     width: 100%;
