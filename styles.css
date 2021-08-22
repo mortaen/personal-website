@@ -29,7 +29,9 @@ body {
   }
   .header {
       
-      background-color: #363734;
+      background-image: url('img/dark-poly.svg');
+      background-size: cover;
+      background-attachment: fixed;
       display: flex;
       flex-wrap: wrap;
       align-items: baseline;
@@ -133,6 +135,7 @@ body {
     display: flex;
     flex-flow: wrap column;
     align-items: center;
+    padding-bottom: 5vh;
   }
 
   .skills-list {
@@ -150,25 +153,19 @@ body {
     height: 8vh;
   }
 
-  .github-section {
-      display: flex;
-      flex-flow: wrap column;
-      align-content: center;
-      
-      
-
-  }
   .github-img {
     width: auto;
     height: 8vh;
-    align-items: center;
-    margin: auto;
   }
   
   .address-section {
   display:flex;
   flex-flow: wrap column;
   align-items: center;
+  background-image: url('img/poly-grey-svg.svg');
+  background-size: cover;
+  background-attachment: fixed;
+  padding-bottom: 5vh;
   }
 
   address {
@@ -194,16 +191,11 @@ body {
   margin-left: 2vw;
   }
 
-  .table {
-    width: 100%;
-    font-size: 2rem;
+  .footer {
+    margin-top: 5vh;
+    float: right;
   }
 
-  /* .list-box {
-    display: flex;
-    justify-content: flex-start;
-  } */
-
-  .footer {
-    margin-top: 25px;
+  .attribution {
+    margin-top: 1vh;
   }
