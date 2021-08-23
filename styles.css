@@ -6,6 +6,9 @@ html {
     box-sizing: inherit;
   }
 
+  * {
+    scroll-behavior: smooth;
+  }
 body {
     
     font-family: 'Urbanist', sans-serif;
